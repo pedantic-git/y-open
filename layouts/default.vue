@@ -1,8 +1,23 @@
 <template>
   <div id="outer">
+    <header>
+      <Menu/>
+    </header>
     <nuxt/>
+    <footer>
+      <Menu/>
+    </footer>
   </div>
 </template>
+
+<script>
+import Menu from '~/components/Menu.vue'
+export default {
+  components: {
+    Menu
+  }
+}
+</script>
 
 <style>
 @import "skeleton-css/css/normalize";
@@ -25,6 +40,9 @@ body {
   h2 {
     font-size: 1.5em;
   }
+  h3 {
+    font-size: 1.4em;
+  }
 }
 #outer {
   max-width: 800px;
@@ -36,5 +54,22 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+main > h2 {
+  margin-top: 1em;
+}
+main > section {
+  margin: 2em 0 3em 0;
+}
+figure {
+  float: right;
+  margin: 0;
+  margin-left: 1em;
+}
+figure img {
+  margin: 0;
+  box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,0.3);
+  width: 300px;
+  max-width: 40vw;
 }
 </style>

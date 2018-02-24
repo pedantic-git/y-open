@@ -9,7 +9,7 @@
 #logo {
   display: flex;
   justify-content: center;
-  margin: 2em 0;
+  margin: 1em 0 2em 0;
   padding: 1em;
   background: rgba(32, 32, 32, 0.5);
   border-radius: 1em;

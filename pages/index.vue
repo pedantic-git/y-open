@@ -9,6 +9,7 @@
     <section>
       <h2>Upcoming meetups</h2>
       <Events/>
+      <p>Or <a href="https://www.meetup.com/y-open/" target="_blank">join us on Meetup</a> to be notified about all our events!</p>
     </section>
     <section>
       <h2>New to the group?</h2>
@@ -17,9 +18,9 @@
     </section>
     <section>
       <h2>Been before?</h2>
-      <p>Read about how to <router-link to="/facebook">join us on Facebook</router-link>, and about the <router-link to="/library">O.P.E.N library books</router-link>.</p>
+      <p>Check out our <router-link to="/members">members' section</router-link> which contains details about our private <b>Facebook group</b>, the <b>library</b> and if you want to help contribute (time or money).</p>
     </section>
-    <section>
+    <section id="get-in-touch">
       <h2>Get in touch</h2>
       <p>If you have any questions for the organisers, or you want to make a suggestion for The Box, please fill in the form below:</p>
       <Contact/>

@@ -3,7 +3,9 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Yorkshire O.P.E.N',
+    titleTemplate: (chunk) => {
+      return chunk ? `${chunk} | Yorkshire O.P.E.N` : 'Yorkshire O.P.E.N'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
