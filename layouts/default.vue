@@ -71,5 +71,6 @@ figure img {
   box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,0.3);
   width: 300px;
   max-width: 40vw;
+  border-radius: 5px;
 }
 </style>
