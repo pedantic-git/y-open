@@ -1,24 +1,25 @@
 module.exports = {
   /*
-  ** Headers of the page
+  ** Meta and manifest info
   */
+  manifest: {
+    name: 'Yorkshire O.P.E.N',
+    short_name: 'O.P.E.N',
+    description: 'Open relationips, polyamory and ethical non-monogamy. A discussion, support and social group in Leeds.',
+    theme_color: '#562634',
+    background_color: '#F8BBD0',
+    ogHost: 'y-open.org.uk'
+  },
   head: {
     titleTemplate: (chunk) => {
-      return chunk ? `${chunk} | Yorkshire O.P.E.N` : 'Yorkshire O.P.E.N'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Yorkshire O.P.E.N website' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      let sitename = 'Yorkshire O.P.E.N'
+      return chunk == sitename ? sitename : `${chunk} | ${sitename}`
+    }
   },
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#E91E63' },
   /*
   ** Build configuration
   */
@@ -39,5 +40,8 @@ module.exports = {
   },
   plugins: [
     '~/plugins/jsonp.js'
+  ],
+  modules: [
+    '@nuxtjs/pwa'
   ]
 }

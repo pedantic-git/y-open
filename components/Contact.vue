@@ -86,7 +86,7 @@ export default {
       height: 1em;
     }
     &:hover {
-      background: linear-gradient(#808080, white);
+      background: linear-gradient(#cccccc, white);
       text-decoration: none;
     }
   }
