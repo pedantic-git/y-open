@@ -22,6 +22,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~assets/vars";
+
 iframe#map {
   width: 100%;
   height: 450px;
@@ -29,12 +31,12 @@ iframe#map {
   border: none;
   border-radius: 5px;
   margin-bottom: 1em;
-  box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,0.3);
+  box-shadow: $shadow;
 }
 img#cosmo {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 1em;
-  box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,0.3);
+  box-shadow: $shadow;
 }
 </style>

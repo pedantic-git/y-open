@@ -9,6 +9,8 @@
 </template>
 
 <style lang="scss">
+@import "~assets/vars";
+
 nav#menu {
   display: flex;
   justify-content: center;
@@ -16,7 +18,7 @@ nav#menu {
   margin: 0.5em 0;
   a {
     font-size: 0.9em;
-    color: white;
+    color: $text;
     white-space: nowrap;
     margin: 0.25em 1em;
     &.nuxt-link-exact-active {

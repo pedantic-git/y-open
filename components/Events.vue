@@ -1,6 +1,9 @@
 <template>
   <div id="events">
-    <ul>
+    <p v-if="error" class="error">
+      Can't get list of meetups from Meetup: are you online?
+    </p>
+    <ul v-else>
       <li v-for="event in events" :key="event.id">
         <a :href="event.event_url">
           <b>{{time(event)}}:</b>
@@ -18,7 +21,8 @@ import moment from 'moment'
 export default {
   data () {
     return {
-      events: []
+      events: [],
+      error: false
     }
   },
   methods: {
@@ -27,7 +31,18 @@ export default {
     }
   },
   mounted () {
-    this.$jsonp(JP_URL).then(json => this.events = json.results)
+    this.$jsonp(JP_URL).then(json => this.events = json.results).catch(error => this.error = true)
   }
 }
 </script>
+
+<style lang="scss">
+@import "~assets/vars";
+
+#events {
+  .error {
+    color: $error;
+    font-weight: bold;
+  }
+}
+</style>
