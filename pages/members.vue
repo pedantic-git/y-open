@@ -1,6 +1,7 @@
 <template>
   <main>
     <h2>Members' page</h2>
+    <p>This section is being revamped - come back soon!</p>
   </main>
 </template>
 
