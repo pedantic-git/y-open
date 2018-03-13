@@ -1,9 +1,10 @@
 <template>
   <nav id="menu">
-    <router-link to="/">Home</router-link>
-    <router-link to="/what-to-expect">What to expect</router-link>
-    <router-link to="/find-us">Find us</router-link>
-    <router-link to="/members">Members</router-link>
+    <nuxt-link to="/" exact>Home</nuxt-link>
+    <nuxt-link to="/what-to-expect">What to expect</nuxt-link>
+    <nuxt-link to="/find-us">Find us</nuxt-link>
+    <nuxt-link to="/members">Members</nuxt-link>
+    <nuxt-link to="/contact">Contact</nuxt-link>
     <a href="https://www.meetup.com/y-open/" target="_blank">Meetup <img src="~assets/nw.svg" alt="new window" /></a>
   </nav>
 </template>
@@ -21,7 +22,7 @@ nav#menu {
     color: $text;
     white-space: nowrap;
     margin: 0.25em 1em;
-    &.nuxt-link-exact-active {
+    &.nuxt-link-active {
       font-weight: bold;
       text-decoration: underline;
     }

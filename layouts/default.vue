@@ -27,10 +27,15 @@ export default {
 <style lang="scss">
 @import "~assets/vars";
 
-body {
-  background: url("~assets/leeds.jpg");
+html {
+  background: url("~assets/leeds.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+}
+
+body {
   color: $text;
   font-size: 20px;
 }

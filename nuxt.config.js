@@ -5,12 +5,19 @@ module.exports = {
   manifest: {
     name: 'Yorkshire O.P.E.N',
     short_name: 'O.P.E.N',
+    lang: 'en-GB',
     description: 'Open relationips, polyamory and ethical non-monogamy. A discussion, support and social group in Leeds.',
     theme_color: '#562634',
     background_color: '#F8BBD0',
     ogHost: 'y-open.org.uk'
   },
   head: {
+    htmlAtrs: {
+      lang: 'en-GB'
+    },
+    link: [
+      { rel: 'shortcut icon', href: '/favicon.ico' }
+    ],
     titleTemplate: (chunk) => {
       let sitename = 'Yorkshire O.P.E.N'
       return chunk == sitename ? sitename : `${chunk} | ${sitename}`
@@ -42,6 +49,7 @@ module.exports = {
     '~/plugins/jsonp.js'
   ],
   modules: [
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    ['@nuxtjs/google-analytics', {id: 'UA-34193061-1'}]
   ]
 }

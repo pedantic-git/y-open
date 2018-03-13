@@ -8,7 +8,7 @@
       </figure>
       <p>Turn up between 7 and 7.30 and one of our hosts will welcome you - we're a friendly bunch but we know it can be intimidating to come to a discussion group where some people have been coming for years.</p>
       <p>Look for the sign on the door or our mascot <b>Thursday the owl</b> (pictured) who always comes with us!</p>
-      <p>If you'd rather meet one of us face-to-face first, just <router-link to="/#get-in-touch">get in touch</router-link>.</p>
+      <p>If you'd rather meet one of us face-to-face first, just <nuxt-link to="/contact">get in touch</nuxt-link>.</p>
     </section>
     <section>
       <h3>Meetup format</h3>
@@ -21,7 +21,7 @@
     <section>
       <h3>The Box</h3>
       <p><em>The Box</em> comes with us to every meetup. It's a place you can write thoughts or questions anonymously, or if you don't want to speak out loud. These could be contributions to the current discussion, or suggestions for the next month's discussion.</p>
-      <p>You can also contribute items for The Box when you RSVP to an event on Meetup or by <router-link to="/#get-in-touch">sending us an email</router-link>.</p>
+      <p>You can also contribute items for The Box when you RSVP to an event on Meetup or by <nuxt-link to="/contact">sending us an email</nuxt-link>.</p>
       <p>One of the organisers will read out everything in The Box at each meetup, so it's a good way to be heard if you don't want to speak up during the discussion.</p>
     </section>
     <section id="rules">
@@ -41,7 +41,7 @@
     <section>
       <h3>Do I need to pay?</h3>
       <p>Short answer: No.</p>
-      <p>Hiring the room costs us a small amount each month. if you'd like to contribute to this, the <router-link to="/members">O.P.E.N library</router-link> or the Meetup/website running costs, small donations are welcome!</p>
+      <p>Hiring the room costs us a small amount each month. if you'd like to contribute to this, the <nuxt-link to="/members">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome!</p>
     </section>
     <section>
       <h3>Social events</h3>

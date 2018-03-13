@@ -13,17 +13,16 @@
     </section>
     <section>
       <h2>New to the group?</h2>
-      <p>We're a friendly and welcoming group, but it makes sense if your first time joining us is somewhat daunting. Here's a quick guide to <router-link to="/what-to-expect">what to expect at an O.P.E.N meetup</router-link>.</p>
-      <p>We usually meet at the Cosmopolitan Hotel: here's how to <router-link to="/find-us">find us</router-link>.</p>
+      <p>We're a friendly and welcoming group, but it makes sense if your first time joining us is somewhat daunting. Here's a quick guide to <nuxt-link to="/what-to-expect">what to expect at an O.P.E.N meetup</nuxt-link>.</p>
+      <p>We usually meet at the Cosmopolitan Hotel: here's how to <nuxt-link to="/find-us">find us</nuxt-link>.</p>
     </section>
     <section>
       <h2>Been before?</h2>
-      <p>Check out our <router-link to="/members">members' section</router-link> which contains details about our private <b>Facebook group</b>, the <b>library</b> and if you want to help contribute (time or money).</p>
+      <p>Check out our <nuxt-link to="/members">members' section</nuxt-link> which contains details about our private <b>Facebook group</b>, the <b>library</b> and if you want to help contribute (time or money).</p>
     </section>
     <section id="get-in-touch">
       <h2>Get in touch</h2>
-      <p>If you have any questions for the organisers, or you want to make a suggestion for The Box, please fill in the form below:</p>
-      <Contact/>
+      <p>If you'd like to know more, please fill in the form on our <nuxt-link to="/contact">contact page</nuxt-link> and we'll get back to you.</p>
     </section>
   </main>
 </template>
@@ -31,13 +30,11 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import Events from '~/components/Events.vue'
-import Contact from '~/components/Contact.vue'
 
 export default {
   components: {
     Logo,
-    Events,
-    Contact
+    Events
   }
 }
 </script>
