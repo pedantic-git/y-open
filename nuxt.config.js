@@ -9,7 +9,7 @@ module.exports = {
     description: 'Open relationships, polyamory and ethical non-monogamy. A discussion, support and social group in Leeds.',
     theme_color: '#562634',
     background_color: '#F8BBD0',
-    ogHost: 'y-open.org.uk'
+    ogHost: 'https://www.y-open.org.uk'
   },
   head: {
     htmlAtrs: {
