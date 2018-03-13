@@ -46,7 +46,7 @@
     <section>
       <h3>Social events</h3>
       <p>As well as the monthly discussion, we hold regular social events. Newcomers and old-timers are both welcome at these — just look for Thursday the owl to find us!</p>
-      <p>Keep an eye on <a href="https://www.meetup.com/y-open/" target="_blank">Meetup</a> for details.</p>
+      <p>Keep an eye on <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">Meetup</a> for details.</p>
     </section>
   </main>
 </template>

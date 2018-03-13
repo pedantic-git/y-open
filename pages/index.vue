@@ -9,7 +9,7 @@
     <section>
       <h2>Upcoming meetups</h2>
       <Events/>
-      <p>Or <a href="https://www.meetup.com/y-open/" target="_blank">join us on Meetup</a> to be notified about all our events!</p>
+      <p>Or <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">join us on Meetup</a> to be notified about all our events!</p>
     </section>
     <section>
       <h2>New to the group?</h2>
@@ -20,7 +20,7 @@
       <h2>Been before?</h2>
       <p>Check out our <nuxt-link to="/members">members' section</nuxt-link> which contains details about our private <b>Facebook group</b>, the <b>library</b> and if you want to help contribute (time or money).</p>
     </section>
-    <section id="get-in-touch">
+    <section>
       <h2>Get in touch</h2>
       <p>If you'd like to know more, please fill in the form on our <nuxt-link to="/contact">contact page</nuxt-link> and we'll get back to you.</p>
     </section>

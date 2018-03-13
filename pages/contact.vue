@@ -5,8 +5,8 @@
     <ContactForm/>
     <p>Or you can find us on:</p>
     <ul>
-      <li><a href="https://www.meetup.com/y-open/" target="_blank"><b>Meetup</b></a></li>
-      <li><a href="https://twitter.com/YorkshireOPEN" target="_blank"><b>Twitter @YorkshireOPEN</b></a></li>
+      <li><a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener"><b>Meetup</b></a></li>
+      <li><a href="https://twitter.com/YorkshireOPEN" target="_blank" rel="noopener"><b>Twitter @YorkshireOPEN</b></a></li>
     </ul>
   </main>
 </template>

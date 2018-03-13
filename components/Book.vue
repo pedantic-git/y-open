@@ -1,5 +1,5 @@
 <template>
-  <a class="book" :href="url" target="_blank">
+  <a class="book" :href="url" target="_blank" rel="noopener">
     <img :src="image" :alt="`cover of ${name}`" />
     <span class="name">{{name}}</span>
     <span class="copies" v-if="copies > 1">({{copies}} copies)</span>
