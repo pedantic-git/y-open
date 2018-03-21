@@ -18,7 +18,7 @@
     </section>
     <section>
       <h2>Been before?</h2>
-      <p>Check out our <nuxt-link to="/members">members' section</nuxt-link> which contains details about our private <b>Facebook group</b>, the <b>library</b> and if you want to help contribute (time or money).</p>
+      <p>Check out our <nuxt-link to="/members">members' section</nuxt-link> which contains details about our private <b>Facebook group</b>, the <b>library</b> and if you want to <b>help contribute</b> (time or money).</p>
     </section>
     <section>
       <h2>Get in touch</h2>

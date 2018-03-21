@@ -41,7 +41,7 @@
     <section>
       <h3>Do I need to pay?</h3>
       <p>Short answer: No.</p>
-      <p>Hiring the room costs us a small amount each month. if you'd like to contribute to this, the <nuxt-link to="/members">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome!</p>
+      <p>Hiring the room costs us a small amount each month. if you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome! You can put cash into The Box or it's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>.</p>
     </section>
     <section>
       <h3>Social events</h3>
