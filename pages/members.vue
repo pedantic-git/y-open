@@ -5,7 +5,7 @@
     <section id="donate">
       <h3>Help with our running costs</h3>
       <p>Yorkshire O.P.E.N doesn't cost too much to run, but we do need to spend £65 a month on the meeting room, and we like to buy books and resources for the library if we get chance.</p>
-      <p>Anything you can spare, either as a monthly donation or as a one-off, will be greatly received. All donations will be spent on Yorkshire O.P.E.N!</p>
+      <p>Anything you can spare, either as a monthly donation or as a one-off, will be greatly appreciated. All donations will be spent on Yorkshire O.P.E.N!</p>
       <DonorBox/>
       <p>If you would like to help with running events, especially social ones, we'd love to hear more. <nuxt-link to="/contact">Get in touch!</nuxt-link></p> 
     </section>
