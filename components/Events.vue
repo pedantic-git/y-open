@@ -15,7 +15,7 @@
 </template>
 
 <script>
-const JP_URL = 'https://api.meetup.com/2/events?group_urlname=y-open&page=2'
+const JP_URL = 'https://api.meetup.com/2/events?group_urlname=y-open&page=4'
 import moment from 'moment'
 
 export default {
