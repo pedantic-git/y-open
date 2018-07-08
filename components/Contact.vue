@@ -12,6 +12,75 @@
       <span :class="{visible: message}">Your message</span>
       <textarea name="message" v-model="message" id="message" placeholder="Your message"></textarea>
     </label>
+    <fieldset id="purpose">
+      <legend class="visible">Are you a:</legend>
+      <input type="radio" id="purpose-journalist" name="purpose" value="Journalist" v-model="purpose">
+      <label for="purpose-journalist">Journalist/producer</label>
+      <input type="radio" id="purpose-researcher" name="purpose" value="Researcher" v-model="purpose">
+      <label for="purpose-researcher">Researcher</label>
+      <input type="radio" id="purpose-other" name="purpose" value="Other" v-model="purpose">
+      <label for="purpose-other">Other</label>
+    </fieldset>
+    <div id="contact-journalist" v-if="purpose == 'Journalist'">
+      <label for="employer">
+        <span :class="{visible: employer}">Which publication/programme do you work for?</span>
+        <input type="text" name="employer" v-model="employer" id="employer" placeholder="Which publication/programme do you work for?">
+      </label>
+      <label for="knowledge">
+        <span :class="{visible: knowledge}">What do you know about ethical non-monogamy already?</span>
+        <textarea name="knowledge" v-model="knowledge" id="knowledge" placeholder="What do you know about ethical non-monogamy already?"></textarea>
+      </label>
+      <label for="number">
+        <span :class="{visible: number}">How many people are you hoping to have involved?</span>
+        <input type="text" name="number" v-model="number" id="number" placeholder="How many people are you hoping to have involved?">
+      </label>
+      <label for="timescale">
+        <span :class="{visible: timescale}">What is your timescale?</span>
+        <input type="text" name="timescale" v-model="timescale" id="timescale" placeholder="What is your timescale?">
+      </label>
+      <fieldset id="photographed">
+        <legend class="visible">Will people need to be photographed/on camera?</legend>
+        <input type="radio" id="photographed-yes" name="photographed" value="Yes" v-model="photographed">
+        <label for="photographed-yes">Yes</label>
+        <input type="radio" id="photographed-no" name="photographed" value="No" v-model="photographed">
+        <label for="photographed-no">No</label>
+      </fieldset>
+      <fieldset id="compensated">
+        <legend class="visible">Will people be compensated?</legend>
+        <input type="radio" id="compensated-yes" name="compensated" value="Yes" v-model="compensated">
+        <label for="compensated-yes">Yes</label>
+        <input type="radio" id="compensated-no" name="compensated" value="No" v-model="compensated">
+        <label for="compensated-no">No</label>
+      </fieldset>
+    </div>
+    <div id="contact-researcher" v-if="purpose == 'Researcher'">
+      <label for="employer">
+        <span :class="{visible: employer}">Which institution do you work for?</span>
+        <input type="text" name="employer" v-model="employer" id="employer" placeholder="Which institution do you work for?">
+      </label>
+      <label for="number">
+        <span :class="{visible: number}">How many people are you hoping to have involved?</span>
+        <input type="text" name="number" v-model="number" id="number" placeholder="How many people are you hoping to have involved?">
+      </label>
+      <label for="timescale">
+        <span :class="{visible: timescale}">What is your timescale?</span>
+        <input type="text" name="timescale" v-model="timescale" id="timescale" placeholder="What is your timescale?">
+      </label>
+      <fieldset id="photographed">
+        <legend class="visible">Will people need to be photographed/on camera?</legend>
+        <input type="radio" id="photographed-yes" name="photographed" value="Yes" v-model="photographed">
+        <label for="photographed-yes">Yes</label>
+        <input type="radio" id="photographed-no" name="photographed" value="No" v-model="photographed">
+        <label for="photographed-no">No</label>
+      </fieldset>
+      <fieldset id="compensated">
+        <legend class="visible">Will people be compensated?</legend>
+        <input type="radio" id="compensated-yes" name="compensated" value="Yes" v-model="compensated">
+        <label for="compensated-yes">Yes</label>
+        <input type="radio" id="compensated-no" name="compensated" value="No" v-model="compensated">
+        <label for="compensated-no">No</label>
+      </fieldset>
+    </div>
     <button>Send</button>
   </form>
 </template>
@@ -23,7 +92,14 @@ export default {
     return {
       name: '',
       email: '',
+      purpose: 'Other',
       message: '',
+      employer: '',
+      knowledge: '',
+      number: '',
+      timescale: '',
+      photographed: 'No',
+      compensated: 'No',
       endpoint: 'https://formspree.io/yopen@owl.me.uk'
     }
   }
@@ -37,9 +113,10 @@ export default {
   padding: 0.5em 0;
   display: flex;
   flex-direction: column;
-  label {
+  > label, > fieldset, > div > label, > div > fieldset {
     margin: 0 0.5em 0 0.5em;
-    span {
+    > span, > legend {
+      margin-left: 0.5em;
       color: white;
       display: block;
       height: 0;
@@ -52,8 +129,20 @@ export default {
         height: 1.1em;
       }
     }
+    > input[type="radio"] {
+      margin: 0 0.25em 0 0.5em;
+    }
+    > label {
+      font-size: 0.9em;
+      display: inline;
+      font-weight: normal;
+      margin-right: 1em;
+    }
   }
-  input, textarea {
+  > fieldset, > div > fieldset {
+    margin-bottom: 0.5em;
+  }
+  input[type="text"], input[type="email"], textarea {
     display: block;
     width: 100%;
     background: transparentize(black, 0.7);
