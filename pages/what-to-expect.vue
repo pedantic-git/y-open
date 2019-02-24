@@ -12,7 +12,7 @@
     </section>
     <section>
       <h3>Meetup format</h3>
-      <p>The meetups are relaxed and informal and take place in a hotel environment. No one is ever expected to speak, and we try to give everyone the chance to speak if they would like to. Attendance is usually between 10 and 25 people and we have had new people attending every time.</p>
+      <p>The meetups are relaxed and informal and take place in a pub environment. No one is ever expected to speak, and we try to give everyone the chance to speak if they would like to. Attendance is usually between 10 and 25 people and we have had new people attending every time.</p>
       <p>The discussion is about all aspects of non-monogamy, and tries to be as inclusive as possible. If you'd like to suggest a topic, you can do so on the Meetup page for the event or in the social network beforehand, or use The Box (see below).</p>
       <p>You don't have to be in a polyamorous or non-monogamous relationship to attend; just respectful towards people who are!</p>
       <p>We have the room booked exclusively from 7pm so we can hear each other!</p>
