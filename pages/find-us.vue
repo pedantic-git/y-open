@@ -1,12 +1,12 @@
 <template>
   <main>
     <h2>Find us</h2>
-    <p>Our meetups usually take place at the <b><a href="http://www.peelhotels.co.uk/hotels/cosmopolitan-hotel-leeds-yorkshire-england/" target="_blank" rel="noopener">Cosmopolitan Hotel</a></b> in Leeds city centre. The hotel is on the corner of Lower Briggate and Swinegate, close to Leeds Bridge, and is very easy to spot.</p>
-    <img id="cosmo" src="~assets/cosmo.jpg" alt="View of the Cosmopolitan Hotel" />
-    <p>We are a short walk from the railway station (exit through the new south door on the main footbridge, Sovereign Street then Swinegate), from the bus station (walk towards Leeds Minster and then along The Calls) and there are a couple of car parks nearby &mdash; the nearest are <a href="https://www.q-park.co.uk/en-gb/cities/leeds/sovereign-square/" target="_blank" rel="noopener">Q-Park Sovereign Square</a> (expensive) and <a href="https://trinityleeds.com/trinity-leeds-car-park" target="_blank" rel="noopener">Trinity car park</a> (£4 after 5pm).</p>
-    <p>We meet in the conference centre (normally the Pullman room), which is near the hotel reception. Keep an eye out for the sign on the door and for Thursday the owl, or ask for O.P.E.N at the hotel reception and they will guide you to the room.</p>
-    <p>We have exclusive use of this room from 7pm until the discussion ends. The venue is accessible, but it does have quite a narrow corridor that might not be suitable for everyone.</p>
-    <iframe id="map" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2H9JogzFwrlnlDbS5D1hQhw-5REdtD1w&q=Cosmopolitan+Hotel,+Leeds+LS1+4AE&zoom=15" allowfullscreen />
+    <p>Our meetups usually take place at the <b><a href="https://www.facebook.com/thevictoriahotelleeds/" target="_blank" rel="noopener">Victoria Hotel</a></b> in Leeds city centre. This is a large pub on Great George Street, directly behind Leeds Town Hall.</p>
+    <img id="vic" src="~assets/vic.jpg" alt="View of the Victoria Hotel" />
+    <p>We are a short walk from the railway station, from Infirmary Street bus station and there are a couple of car parks nearby &mdash; the nearest are <a href="https://www.leeds.gov.uk/parking-roads-and-travel/parking/city-centre-car-parks/international-pool-car-park/" target="_blank" rel="noopener">International Pool</a> (£3) and <a href="https://www.visitleeds.co.uk/thedms.aspx?dms=3&venue=2199626" target="_blank" rel="noopener">The Rose Bowl</a> (£5).</p>
+    <p>We meet in Bridget's Room, on the left as you enter. Keep an eye out for the sign on the door and for Thursday the owl, or ask for O.P.E.N at the bar  and they will guide you to the room.</p>
+    <p>We have exclusive use of this room from 7pm until the discussion ends. The venue has one step up at the main entrance. A street-level entrance is available; please let us know if you need this.</p>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.3627801709376!2d-1.5519707841443462!3d53.800828080076776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c1d72c4966b%3A0xca64760616357cd3!2sThe+Victoria+Hotel!5e0!3m2!1sen!2suk!4v1551034266160" allowfullscreen />
     <p>Sometimes our meetups take place in different venues. <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">Keep an eye on Meetup</a> for more details.</p>
   </main>
 </template>
@@ -33,7 +33,7 @@ iframe#map {
   margin-bottom: 1em;
   box-shadow: $shadow;
 }
-img#cosmo {
+img#vic {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 1em;

@@ -57,6 +57,12 @@ main {
   > h2 {
     margin-top: 1em;
   }
+  > .subtitle {
+    font-style: italic;
+    margin-top: -0.75em;
+    margin-bottom: 1.25em;
+    font-size: 1.2em;
+  }
   > section {
     margin: 2em 0 3em 0;
   }

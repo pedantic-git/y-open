@@ -16,20 +16,21 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^2.0.8",
-    "axios": "^0.17.1",
+    "axios": "^0.18.0",
     "moment": "^2.20.1",
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.4.0",
     "skeleton-css": "^2.0.4",
+    "vue-anchor-router-link": "^0.8.4",
     "vue-jsonp": "^0.1.7"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
+    "eslint": "^5.14.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.2",
     "node-sass": "^4.7.2",
     "push-dir": "^0.4.1",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^7.1.0"
   }
 }

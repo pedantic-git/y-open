@@ -20,7 +20,7 @@ module.exports = {
     ],
     titleTemplate: (chunk) => {
       let sitename = 'Yorkshire O.P.E.N'
-      return chunk == sitename ? sitename : `${chunk} | ${sitename}`
+      return chunk === '' ? sitename : `${chunk} | ${sitename}`
     }
   },
   /*
