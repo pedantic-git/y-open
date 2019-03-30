@@ -14,7 +14,7 @@
     <section>
       <h2>New to the group?</h2>
       <p>We're a friendly and welcoming group, but it makes sense if your first time joining us is somewhat daunting. Here's a quick guide to <nuxt-link to="/what-to-expect">what to expect at an O.P.E.N meetup</nuxt-link>.</p>
-      <p>We usually meet at the Cosmopolitan Hotel: here's how to <nuxt-link to="/find-us">find us</nuxt-link>.</p>
+      <p>We usually meet at the Victoria Hotel: here's how to <nuxt-link to="/find-us">find us</nuxt-link>.</p>
     </section>
     <section>
       <h2>Been before?</h2>
