@@ -2,7 +2,7 @@
   "name": "y-open",
   "version": "1.0.0",
   "description": "Yorkshire O.P.E.N website",
-  "author": "Rich Daley <rich@richd.me>",
+  "author": "Quinn Daley <quinn@quinn.mx>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
