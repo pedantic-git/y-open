@@ -3,11 +3,13 @@
     <Logo/>
     <section>
       <h2>Welcome to Yorkshire O.P.E.N!</h2>
-      <p>Yorkshire O.P.E.N is a monthly discussion, support and social group for people in or curious about ethically non-monogamous relationships.</p>
-      <p>Our discussion meetups are on the first Thursday of every month, in central Leeds, and social events happen from time to time as well.</p>
+      <p>We are a support community for people in or curious about ethically non-monogamous relationships.</p>
+      <p>We've been going since 2012 and welcome members and newcomers from across Yorkshire and the north of England.</p>
+      <p>We meet on the <b>first Thursday of every month</b> in central Leeds.</p>
     </section>
     <section>
       <h2>Upcoming meetups</h2>
+      <p>Here are the next few O.P.E.N events (as well as social events organised by our sibling group Yorkshire Poly Connections):</p>
       <Events/>
       <p>Or <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">join us on Meetup</a> to be notified about all our events!</p>
     </section>

@@ -6,7 +6,7 @@ module.exports = {
     name: 'Yorkshire O.P.E.N',
     short_name: 'O.P.E.N',
     lang: 'en-GB',
-    description: 'Open relationships, polyamory and ethical non-monogamy. A discussion, support and social group in Leeds.',
+    description: 'Open relationships, polyamory and ethical non-monogamy. A support community in Leeds for people in or curious about ethically non-monogamous relationships.',
     theme_color: '#562634',
     background_color: '#F8BBD0',
     ogHost: 'https://www.y-open.org.uk'
