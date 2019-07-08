@@ -22,7 +22,7 @@
       <div class="explanation">
         <p>A quick name + pronoun circle to ensure we all know how to address each other, followed by a thinking round:</p>
         <p>The question is "what is on your mind about relationships?" Each person gets the chance to speak once, for as long as you like (which could be not at all). You can speak without interruptions or questions and you can pause as often as you like and for as long as you like. Every other person gives you their attention during this time, safe in the knowledge that when it comes to their turn, they'll have as long as they like to think about their own answer.</p>
-        <p>If this sounds a little scary, remember you don't have to speak at all!</p>
+        <p>We've tried this before and it's been really well received. And if it sounds a bit scary, remember you can always pass!</p>
       </div>
       <h4><b>7.45pm</b>: roundtable chat about a pre-agreed topic</h4>
       <div class="explanation">
