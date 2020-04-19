@@ -4,17 +4,22 @@
     <p>Below you can find out how to help with our running costs, read about our private Facebook group and see what books are in our library.</p>
     <section id="donate">
       <h3>Help with our running costs</h3>
-      <p>Yorkshire O.P.E.N doesn't cost too much to run, but we do need to spend £65 a month on the meeting room, and we like to buy books and resources for the library if we get chance.</p>
+      <p>Yorkshire O.P.E.N doesn't cost too much to run, but we do need to spend a little bit each month on Zoom, and we like to buy books and resources for the library if we get chance.</p>
+      <p>We'd also like to give a donation to the Victoria Hotel when the pandemic is over, since none of this is their fault.</p>
       <p>Anything you can spare, either as a monthly donation or as a one-off, will be greatly appreciated. All donations will be spent on Yorkshire O.P.E.N!</p>
       <DonorBox/>
       <p>If you would like to help with running events or with the admin or social media for the group, we'd love to hear more. <nuxt-link to="/contact">Get in touch!</nuxt-link></p> 
     </section>
     <section id="facebook">
-      <h3>Secret Facebook group</h3>
-      <p>As well as our monthly meetups, we keep the discussion going in between with our <em>secret</em> Facebook group. We try to keep the membership just to people who have been to meetups, and close friends living in Yorkshire who are likely to come to meetups in the future.</p>
-      <p><em>Secret</em> means that the only people who can see you're in the group are other people who are already in the group, which hopefully creates a safer environment for people who are not fully out about their relationship status to all their friends.</p>
-      <p>Unfortunately, with it being secret, we can't put a link to it here. To get access, please <nuxt-link to="/contact">contact us</nuxt-link> with the email address you use to log into Facebook and we can add you. If you know someone in the group and you're friends with them on Facebook, they can also add you in.</p>
-      <p>We don't ourselves let people in until we've met them: the main reason for this is to try to avoid accidentally letting someone in who might not respect people's privacy.</p>
+      <h3>Private Facebook group</h3>
+      <p>As well as our monthly meetups, we keep the discussion going in between with our <em>private</em> Facebook group. We try to keep the membership just to people who have been to meetups, and close friends living in Yorkshire who are likely to come to meetups in the future.</p>
+      <p><em>Private</em> means that the only people who can see you're in the group are other people who are already in the group, which hopefully creates a safer environment for people who are not fully out about their relationship status to all their friends.</p>
+      <p>You can apply for membership to the group using the link below. Please note that your membership will not be accepted unless you have been to a group or a friend of yours is already in the group. The main reason for this is to try to avoid accidentally letting someone in who might not respect people's privacy.</p>
+      <p>
+        <b>
+          <a href="https://www.facebook.com/groups/yorkshireopen/" target="_blank" rel="noopener">&raquo; Apply to join the Facebook group</a>
+        </b>
+      </p>
     </section>
     <section id="library">
       <h3>O.P.E.N Library</h3>

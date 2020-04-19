@@ -1,21 +1,30 @@
 <template>
   <main>
-    <h2>Find us</h2>
-    <p>Our meetups usually take place at the <b><a href="https://www.facebook.com/thevictoriahotelleeds/" target="_blank" rel="noopener">Victoria Hotel</a></b> in Leeds city centre. This is a large pub on Great George Street, directly behind Leeds Town Hall.</p>
-    <img id="vic" src="~assets/vic.jpg" alt="View of the Victoria Hotel" />
-    <p>We are a short walk from the railway station, from Infirmary Street bus station and there are a couple of car parks nearby &mdash; the nearest are <a href="https://www.leeds.gov.uk/parking-roads-and-travel/parking/city-centre-car-parks/international-pool-car-park/" target="_blank" rel="noopener">International Pool</a> (£3) and <a href="https://www.visitleeds.co.uk/thedms.aspx?dms=3&venue=2199626" target="_blank" rel="noopener">The Rose Bowl</a> (£5). There's also some on-street parking which you can now pay for with an app.</p>
-    <p>We meet in Bridget's Room, on the left as you enter. Keep an eye out for the sign on the door and for Thursday the owl, or ask for O.P.E.N at the bar  and they will guide you to the room.</p>
-    <p>We have exclusive use of this room from 7pm until 10pm. The venue has one step up at the main entrance. A street-level entrance is available; please let us know if you need this.</p>
-    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.3627801709376!2d-1.5519707841443462!3d53.800828080076776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c1d72c4966b%3A0xca64760616357cd3!2sThe+Victoria+Hotel!5e0!3m2!1sen!2suk!4v1551034266160" allowfullscreen />
-    <p>Sometimes our meetups take place in different venues. <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">Keep an eye on Meetup</a> for more details.</p>
+    <h2>Zoom details</h2>
+    <p>Before this pandemic, our meetups usually took place at the <b><a href="https://www.facebook.com/thevictoriahotelleeds/" target="_blank" rel="noopener">Victoria Hotel</a></b> in Leeds city centre, and we hope to be back there soon.</p>
+    <p>Until then, we are meeting on <b><a href="https://zoom.us/" target="_blank" rel="noopener">Zoom</a></b>.</p>
+    <p>
+      <a class="logo" href="https://zoom.us/" target="_blank" rel="noopener">
+        <img alt="Zoom logo" src="~/assets/zoom-logo.svg" />
+      </a>
+    </p>
+    <p>Zoom is videoconferencing software you have probably heard of! You can <a href="https://zoom.us/download" target="_blank" rel="noopener">download and install</a> the software on PC, Mac, iPhone, iPad or Android.</p>
+    <p>The link to the call will be posted in the event page on Meetup well in advance of the call. Look for the section marked "Online event" - it's on the right hand side on a computer and near the top on a mobile - and click the link. You can find the Meetup event pages for our next few events below:</p>
+    <Events />
+    <p>If you have any trouble getting into our Zoom call, <nuxt-link to="/contact">drop the organisers a message</nuxt-link> and we'll try to help you.</p>
   </main>
 </template>
 
 <script>
+import Events from '~/components/Events.vue'
+
 export default {
+  components: {
+    Events
+  },
   head () {
     return {
-      title: 'Find us'
+      title: 'Zoom details'
     }
   }
 }
@@ -23,6 +32,12 @@ export default {
 
 <style lang="scss">
 @import "~assets/vars";
+
+a.logo {
+  img {
+    height: 6rem;
+  }
+}
 
 iframe#map {
   width: 100%;

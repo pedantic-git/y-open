@@ -12,11 +12,11 @@
     </section>
     <section>
       <h3>A typical meetup</h3>
-      <p>Our meetups are relaxed and take place in a pub setting. Because we are there to support each other, there is some structure and facilitation but it's very casual and no one is ever expected to speak.</p>
+      <p>Our meetups are relaxed and take place on Zoom (it would normally be a pub setting). Because we are there to support each other, there is some structure and facilitation but it's very casual and no one is ever expected to speak.</p>
       <p>Normally attendance is between 8 and 15 people. Sometimes it's as high as 25 or 30 but we always manage with any size group!</p>
-      <h4><b>7pm</b>: social time with games &amp; crafts</h4>
+      <h4><b>7pm</b>: social time</h4>
       <div class="explanation">
-        <p>While everyone is arriving and getting our drinks we'll have a chance to chat and play some games or do crafts. Feel free to bring your own games and crafts!</p>
+        <p>While everyone is arriving and getting our drinks we'll have a chance to chat and do crafts. Feel free to bring your current craft to the Zoom!</p>
       </div>
       <h4><b>7.30pm</b>: introductions and a thinking round</h4>
       <div class="explanation">
@@ -24,25 +24,29 @@
         <p>The question is "what is on your mind about relationships?" Each person gets the chance to speak once, for as long as you like (which could be not at all). You can speak without interruptions or questions and you can pause as often as you like and for as long as you like. Every other person gives you their attention during this time, safe in the knowledge that when it comes to their turn, they'll have as long as they like to think about their own answer.</p>
         <p>We've tried this before and it's been really well received. And if it sounds a bit scary, remember you can always pass!</p>
       </div>
-      <h4><b>7.45pm</b>: roundtable chat about a pre-agreed topic</h4>
+      <h4><b>8pm</b>: quick break</h4>
+      <div class="explanation">
+        <p>Because our meetups are on a Thursday, we take a quick break to (optionally) join in with the clap for the NHS.</p>
+      </div>
+      <h4><b>8.10pm</b>: roundtable chat about a pre-agreed topic</h4>
       <div class="explanation">
         <p>The topic will be agreed in advance on the <nuxt-link to="/members">Facebook group</nuxt-link> and will usually be something quite wide-ranging like "Rules".</p>
         <p>This discussion is allowed to wander as much as it likes. It is hopefully as much fun and use for people who have lots to say about the subject as it is for the people who have mostly questions about it.</p>
       </div>
-      <h4><b>8.30pm</b>: break / social time</h4>
-      <h4><b>8.45pm</b>: support session</h4>
+      <h4><b>8.45pm</b>: break / social time</h4>
+      <h4><b>9pm</b>: support session</h4>
       <div class="explanation">
         <p>This is a chance for anyone with specific questions, problems or concerns about relationships to raise those and get support from other people present. It's not just for people new to ethical non-monogamy: we all need support from time to time, and those with more experience can share their experience.</p>
       </div>
-      <h4><b>9.30pm</b>: social time with games &amp; crafts</h4>
+      <h4><b>9.45pm</b>: social time if you'd like to stay on the call!</h4>
       <h4><b>10pm</b>: close</h4>
     </section>
     <section>
-      <h3>The Box &amp; Suggestion Ox</h3>
+      <h3>The Box</h3>
       <p><em>The Box</em> comes with us to every meetup. It's a place you can write thoughts or questions anonymously, or if you don't want to speak out loud. These could be contributions to the current support session, or suggestions for the next month's roundtable chat.</p>
       <p>You can also contribute items for The Box when you RSVP to an event on Meetup or by <nuxt-link to="/contact">sending us an email</nuxt-link>.</p>
       <p>One of the organisers will read out anything that's in The Box at the start of the support session; so you can put your questions or thoughts in there at any time during the first half.</p>
-      <p>You can also submit thoughts and comments anonymously using <a href="https://www.suggestionox.com/r/2knrK5" target="_blank" rel="noopener">our Suggestion Ox</a>. Suggestion Ox is completely anonymous: even the organisers cannot see who posted a message.</p>
+      <p>You can also submit thoughts and comments directly to an organiser (Quinn or Emily) during the Zoom call using the private chat feature. Be sure to say you'd like your words to be read out as an anonymous comment.</p>
     </section>
     <section id="rules">
       <h3>Rules</h3>
@@ -60,7 +64,7 @@
     <section>
       <h3>Do I need to pay?</h3>
       <p>Short answer: No.</p>
-      <p>Hiring the room costs us a small amount each month. if you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome! You can put cash into The Box or it's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>.</p>
+      <p>Zoom costs us a small amount each month, and we would like to make a donation to our usual venue (The Victoria Hotel) after the pandemic ends because none of this is their fault! if you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome! You can put cash into The Box or it's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>.</p>
     </section>
     <section>
       <h3>Social events</h3>

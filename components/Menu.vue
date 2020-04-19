@@ -2,7 +2,7 @@
   <nav class="menu">
     <nuxt-link to="/" exact>Home</nuxt-link>
     <nuxt-link to="/what-to-expect">What to expect</nuxt-link>
-    <nuxt-link to="/find-us">Find us</nuxt-link>
+    <nuxt-link to="/find-us">Zoom details</nuxt-link>
     <nuxt-link to="/members">Members</nuxt-link>
     <nuxt-link to="/contact">Contact</nuxt-link>
     <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">Meetup <img src="~assets/nw.svg" alt="new window" /></a>
