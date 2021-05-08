@@ -24,6 +24,7 @@
     <section id="library">
       <h3>O.P.E.N Library</h3>
       <p>We have a free lending library of books and resources to help with polyamory or relationships in general. You can borrow a book for up to a year as long as we know how to get hold of you to get it back!</p>
+      <p>Many of the books have been donated - the presence of a book in our library does not mean we necessarily endorse its contents. Clicking on any book cover below will take you to reviews on Goodreads.</p>
       <p>See below for a list of the books that are currently in our library.</p>
       <p>Please also see <nuxt-link to="/notes/on-franklin-veaux">our note about the author Franklin Veaux</nuxt-link>.</p>
       <div id="books">
