@@ -15,22 +15,22 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
-    "@nuxtjs/pwa": "^2.6.0",
-    "axios": "^0.19.2",
+    "@nuxtjs/pwa": "^3.3.5",
+    "axios": "^0.21.1",
     "moment": "^2.20.1",
     "nuxt": "^2.4.0",
     "skeleton-css": "^2.0.4",
     "vue-anchor-router-link": "^0.8.4",
-    "vue-jsonp": "^0.1.7"
+    "vue-jsonp": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.26.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^4.0.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.7.2",
+    "eslint-plugin-vue": "^7.9.0",
     "push-dir": "^0.4.1",
-    "sass-loader": "^8.0.2"
+    "sass": "^1.32.12",
+    "sass-loader": "^10.1.1"
   }
 }
