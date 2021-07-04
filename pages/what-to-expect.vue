@@ -25,9 +25,6 @@
         <p>We've tried this before and it's been really well received. And if it sounds a bit scary, remember you can always pass!</p>
       </div>
       <h4><b>8pm</b>: quick break</h4>
-      <div class="explanation">
-        <p>Because our meetups are on a Thursday, we take a quick break to (optionally) join in with the clap for the NHS.</p>
-      </div>
       <h4><b>8.10pm</b>: roundtable chat about a pre-agreed topic</h4>
       <div class="explanation">
         <p>The topic will be agreed in advance on the <nuxt-link to="/members">Facebook group</nuxt-link> and will usually be something quite wide-ranging like "Rules".</p>
