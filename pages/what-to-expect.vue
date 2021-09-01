@@ -24,7 +24,10 @@
         <p>The question is "what is on your mind about relationships?" Each person gets the chance to speak once, for as long as you like (which could be not at all). You can speak without interruptions or questions and you can pause as often as you like and for as long as you like. Every other person gives you their attention during this time, safe in the knowledge that when it comes to their turn, they'll have as long as they like to think about their own answer.</p>
         <p>We've tried this before and it's been really well received. And if it sounds a bit scary, remember you can always pass!</p>
       </div>
-      <h4><b>8pm</b>: quick break</h4>
+      <h4><b>8pm</b>: optional break</h4>
+      <div class="explanation">
+        <p>Sometimes we take a short break if it feels like we need one after the thinking round. Otherwise we go straight into the roundtable chat.</p>
+      </div>
       <h4><b>8.10pm</b>: roundtable chat about a pre-agreed topic</h4>
       <div class="explanation">
         <p>The topic will be agreed in advance on the <nuxt-link to="/members">Facebook group</nuxt-link> and will usually be something quite wide-ranging like "Rules".</p>
