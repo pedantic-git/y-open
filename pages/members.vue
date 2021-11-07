@@ -26,7 +26,7 @@
       <p>We have a free lending library of books and resources to help with polyamory or relationships in general. You can borrow a book for up to a year as long as we know how to get hold of you to get it back!</p>
       <p>Many of the books have been donated - the presence of a book in our library does not mean we necessarily endorse its contents. Clicking on any book cover below will take you to reviews on Goodreads.</p>
       <p>See below for a list of the books that are currently in our library.</p>
-      <p>Please also see <nuxt-link to="/notes/on-franklin-veaux">our note about the author Franklin Veaux</nuxt-link>.</p>
+      <p>We're also big fans of the work of <b>Meg-John Barker</b>, and many of <a href="https://www.rewriting-the-rules.com/zines/" target="_blank" rel="noopener">their zines are available free on their website</a>. Particularly relevant to this group are <i>Queer Relationships</i> and <i>Consent Checklist</i>.</p>
       <div id="books">
         <Book v-for="(book, code) in books" :key="code" v-bind="book" />
       </div>

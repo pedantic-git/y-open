@@ -1,14 +1,17 @@
 <template>
   <a class="book" :href="url" target="_blank" rel="noopener">
     <img :src="image" :alt="`cover of ${name}`" />
-    <span class="name">{{name}}</span>
+    <span class="name">
+      {{name}}
+      <nuxt-link v-if="caution === 'fv'" to="/notes/on-franklin-veaux">[caution]</nuxt-link>
+    </span>
     <span class="copies" v-if="copies > 1">({{copies}} copies)</span>
   </a>
 </template>
 
 <script>
 export default {
-  props: ['name', 'goodreads', 'copies', 'image'],
+  props: ['name', 'goodreads', 'copies', 'image', 'caution'],
   computed: {
     url () { return `https://www.goodreads.com/book/show/${this.goodreads}` }
   }
