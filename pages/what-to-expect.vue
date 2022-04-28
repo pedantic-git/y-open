@@ -55,6 +55,7 @@
         <li>Please respect the privacy of other members and keep the discussion confidential within the group.</li>
         <li>Please remember that this is a public group and anyone could secretly be a reporter or a spy from your mum. Don't say anything that would cause you major problems if it became public knowledge.</li>
         <li>Don't try to force anyone to speak, and please remember that if you're talking for a long time, people might not get a chance to speak. Please help the organisers if they've not spotted that someone is trying to speak.</li>
+        <li>[At online meetups:] Don't send private messages to people if you don't know them. This is a group discussion and unexpected private messages can be uncomfortable.</li>
         <li>Remember that your version of ethical non-monogamy is only one kind, and respect that other people's may be different to yours. Also please respect that monogamy is an equally valid lifestyle.</li>
         <li>Just because someone is talking a lot doesn't mean they know what they're talking about.</li>
         <li>Please take pronouns seriously.</li>
