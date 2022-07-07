@@ -17,7 +17,7 @@
     "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/pwa": "^3.3.5",
     "axios": "^0.21.1",
-    "moment": "^2.20.1",
+    "moment": "^2.29.4",
     "nuxt": "^2.4.0",
     "skeleton-css": "^2.0.4",
     "vue-anchor-router-link": "^0.8.4",
