@@ -19,7 +19,6 @@ let library = {
   sp: {name: "Spiritual Polyamory", goodreads: "717111"},
   tk: {name: "Trans-Kin", goodreads: "15841440"},
   wdp: {name: "What Does Polyamory Look Like?", goodreads: "8874052", copies: 2},
-  wl: {name: "Warrior Love", goodreads: "20669586"},
   wsylip: {name: "When Someone You Love is Polyamorous", goodreads: "29633526", copies: 3}
 }
 for(const code in library) {
