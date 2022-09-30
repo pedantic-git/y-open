@@ -7,7 +7,7 @@
         <img src="~assets/thursday.jpg" alt="Thursday the owl" />
       </figure>
       <p>Turn up between 7 and 7.30pm and one of our hosts will welcome you - we're a friendly bunch but we know it can be intimidating to be a new member of a community where some people have been coming for years.</p>
-      <p>Look for the sign on the door or our mascot <b>Thursday the owl</b> (pictured) who always comes with us!</p>
+      <p>If it's an in-person meetup, look for the sign on the door or our mascot <b>Thursday the owl</b> (pictured) who always comes with us!</p>
       <p>If you'd rather meet one of us face-to-face first, please <nuxt-link to="/contact">get in touch</nuxt-link>. We can arrange for someone to meet you at the station or in a familiar place before the meetup begins.</p>
     </section>
     <section>
@@ -27,10 +27,11 @@
       <h4><b>8pm</b>: optional break</h4>
       <div class="explanation">
         <p>Sometimes we take a short break if it feels like we need one after the thinking round. Otherwise we go straight into the roundtable chat.</p>
+        <p>If there are many people present, sometimes the thinking round continues for a little after the break, and we may even go into another break if we need to.</p>
       </div>
       <h4><b>8.10pm</b>: roundtable chat about a pre-agreed topic</h4>
       <div class="explanation">
-        <p>The topic will be agreed in advance on the <nuxt-link to="/members">Facebook group</nuxt-link> and will usually be something quite wide-ranging like "Rules".</p>
+        <p>The topic will be agreed in advance on the <nuxt-link to="/members#discord">Discord group</nuxt-link> and will usually be something quite wide-ranging like "Rules".</p>
         <p>This discussion is allowed to wander as much as it likes. It is hopefully as much fun and use for people who have lots to say about the subject as it is for the people who have mostly questions about it.</p>
       </div>
       <h4><b>8.45pm</b>: break / social time</h4>
@@ -65,7 +66,7 @@
     <section>
       <h3>Do I need to pay?</h3>
       <p>Short answer: No.</p>
-      <p>Zoom costs us a small amount each month, and we would like to make a donation to our usual venue (The Victoria Hotel) after the pandemic ends because none of this is their fault! if you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome! You can put cash into The Box or it's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>.</p>
+      <p>Zoom costs us a small amount each month, and when we start meeting again occasionally in person, we'd like to be able to pay for a room. If you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome! You can put cash into The Box or it's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>.</p>
     </section>
     <section>
       <h3>Social events</h3>

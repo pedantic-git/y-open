@@ -10,16 +10,16 @@
       <DonorBox/>
       <p>If you would like to help with running events or with the admin or social media for the group, we'd love to hear more. <nuxt-link to="/contact">Get in touch!</nuxt-link></p> 
     </section>
+    <section id="discord">
+      <h3>Discord</h3>
+      <p>As well as our monthly meetups, we keep the discussion going in between with our <em>private</em> Discord group. We try to keep the membership just to people who have been to meetups, and close friends living in Yorkshire who are likely to come to meetups in the future.</p>
+      <p><a href="https://discord.com/">Discord</a> is a community-oriented chat software that can be installed on your computer or mobile, but is also available through any web browser.</p>
+      <p>We will share an invite link to the Discord group in each of our support &amp; community events.</p>
+      <p>If you've been to a meetup in the past and you would like an invite link at any time, please <nuxt-link to="/contact">get in touch</nuxt-link>.</p>
+    </section> 
     <section id="facebook">
-      <h3>Private Facebook group</h3>
-      <p>As well as our monthly meetups, we keep the discussion going in between with our <em>private</em> Facebook group. We try to keep the membership just to people who have been to meetups, and close friends living in Yorkshire who are likely to come to meetups in the future.</p>
-      <p><em>Private</em> means that the only people who can see you're in the group are other people who are already in the group, which hopefully creates a safer environment for people who are not fully out about their relationship status to all their friends.</p>
-      <p>You can apply for membership to the group using the link below. Please note that your membership will not be accepted unless you have been to a group or a friend of yours is already in the group. The main reason for this is to try to avoid accidentally letting someone in who might not respect people's privacy.</p>
-      <p>
-        <b>
-          <a href="https://www.facebook.com/groups/yorkshireopen/" target="_blank" rel="noopener">&raquo; Apply to join the Facebook group</a>
-        </b>
-      </p>
+      <h3>Facebook: no more</h3>
+      <p>We used to have a private group on Facebook. However, the number of members who do not have Facebook accounts made this gradually feel rather exclusionary. We now exclusively meet on Discord between events.</p>
     </section>
     <section id="library">
       <h3>O.P.E.N Library</h3>
