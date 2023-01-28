@@ -1,10 +1,12 @@
 let library = {
   ae: {name: "The Art and Etiquette of Polyamory", goodreads: "9453844"},
+  amap: {name: "Ask Me About Polyamory", goodreads: "28384607"},
   dr: {name: "Designer Relationships", goodreads: "24402980"},
   es: {name: "The Ethical Slut", goodreads: "4469773", copies: 2},
   et: {name: "Eight Things I Wish I'd Known About Polyamory", goodreads: "22016663"},
   gc: {name: "The Game Changer", goodreads: "25403882", caution: "fv"},
   iy: {name: "Intimacy: Trusting Oneself and the Other", goodreads: "97001"},
+  lr: {name: "Love, Retold", goodreads: "32280028"},
   lwl: {name: "Love Without Limits", goodreads: "433499"},
   ou: {name: "Opening Up", goodreads: "1128665", copies: 2},
   mtt: {name: "More Than Two", goodreads: "21955937", copies: 3, caution: "fv"},
