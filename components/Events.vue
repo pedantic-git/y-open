@@ -5,7 +5,7 @@
     </p>
     <ul v-else>
       <li v-for="event in events" :key="event.id">
-        <a :href="event.event_url">
+        <a :href="event.link">
           <b>{{time(event)}}:</b>
           {{event.name}}
         </a>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-const JP_URL = 'https://api.meetup.com/2/events?group_urlname=y-open&page=4'
+const JP_URL = 'https://api.meetup.com/y-open/events?page=4'
 import moment from 'moment'
 
 export default {
@@ -31,7 +31,7 @@ export default {
     }
   },
   mounted () {
-    this.$jsonp(JP_URL).then(json => this.events = json.results).catch(error => this.error = true)
+    this.$jsonp(JP_URL).then(json => this.events = json.data).catch(error => this.error = true)
   }
 }
 </script>
