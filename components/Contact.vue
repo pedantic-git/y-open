@@ -100,7 +100,7 @@ export default {
       timescale: '',
       photographed: 'No',
       compensated: 'No',
-      endpoint: 'https://formspree.io/yopen@owl.me.uk'
+      endpoint: 'https://formspree.io/f/mbjnlqoo'
     }
   }
 }
