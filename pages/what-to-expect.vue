@@ -6,48 +6,64 @@
       <figure>
         <img src="~assets/thursday.jpg" alt="Thursday the owl" />
       </figure>
-      <p>Turn up between 7 and 7.30pm and one of our hosts will welcome you - we're a friendly bunch but we know it can be intimidating to be a new member of a community where some people have been coming for years.</p>
-      <p>If it's an in-person meetup, look for the sign on the door or our mascot <b>Thursday the owl</b> (pictured) who always comes with us!</p>
-      <p>If you'd rather meet one of us face-to-face first, please <nuxt-link to="/contact">get in touch</nuxt-link>. We can arrange for someone to meet you at the station or in a familiar place before the meetup begins.</p>
+      <p>At a support &amp; community meetup, please turn up between 7 and 7.30pm. The first half hour is unstructured gathering/social time but the discussion starts properly at 7.30pm. We like people to arrive before this so that everyone is present when the rules are read out.</p>
+      <p>If you cannot be here by 7.30pm, please be sure you have read <a href="#rules">the rules</a> below. If you arrive during the Thinking Round, we will hold you in the waiting room until the next break. If this is what's happened, we'll let you know in a waiting room message.</p>
+      <p>If it's an in-person social, please read the instructions in the invitation as every one is different! Our mascot <b>Thursday the owl</b> (pictured) used to come with us to every event but as we've got more organisers this happens less often.</p>
+      <p>If you'd rather meet one of us individually first, please <nuxt-link to="/contact">get in touch</nuxt-link>. We can have a private Zoom call with you or meet you in person to answer any questions you might have.</p>
     </section>
     <section>
-      <h3>A typical meetup</h3>
-      <p>Our meetups are relaxed and take place on Zoom (it would normally be a pub setting). Because we are there to support each other, there is some structure and facilitation but it's very casual and no one is ever expected to speak.</p>
-      <p>Normally attendance is between 8 and 15 people. Sometimes it's as high as 25 or 30 but we always manage with any size group!</p>
+      <h3>A typical support &amp; community meetup</h3>
+      <p>Our meetups are relaxed and take place on Zoom. Because we are there to support each other, there is some structure and facilitation but it's very casual and no one is ever expected to speak.</p>
+      <p>Normally attendance is between 10 and 30 people. Sometimes it's higher or lower but we always manage with any size group!</p>
       <h4><b>7pm</b>: social time</h4>
       <div class="explanation">
         <p>While everyone is arriving and getting our drinks we'll have a chance to chat and do crafts. Feel free to bring your current craft to the Zoom!</p>
       </div>
-      <h4><b>7.30pm</b>: introductions and a thinking round</h4>
+      <h4><b>7.30pm</b>: introductions and notices</h4>
       <div class="explanation">
-        <p>A quick name + pronoun circle to ensure we all know how to address each other, followed by a thinking round:</p>
+        <p>The facilitator (usually Quinn or Emily) will read out the rules, explain how the evening goes, and make any announcements.</p>
+        <p>It's a good idea at this point to change your Zoom name to the name you want people to refer to you by, and add in your pronouns, if you haven't done before.</p>
+      </div>
+      <h4><b>7.45pm</b>: the Thinking Round</h4>
+      <div class="explanation">
+        <p>The Thinking Round is a technique from <a href="https://www.timetothink.com/thinking-environment/" target="_blank" rel="noopener">Nancy Kline's Thinking Environment</a> that helps people to do their freshest thinking and ensures everyone gets space to think and to be heard, if they want it.</p>
         <p>The question is "what is on your mind about relationships?" Each person gets the chance to speak once, for as long as you like (which could be not at all). You can speak without interruptions or questions and you can pause as often as you like and for as long as you like. Every other person gives you their attention during this time, safe in the knowledge that when it comes to their turn, they'll have as long as they like to think about their own answer.</p>
-        <p>We've tried this before and it's been really well received. And if it sounds a bit scary, remember you can always pass!</p>
+        <p>The way we do this on Zoom is that the facilitator will mute all the microphones and then one-by-one will send unmute requests to people. When it's your turn, accept the unmute request and then you will have your time to think, and to speak if you like. When you are done, mute your microphone so we know to move onto the next person. (Even if you don't speak, please unmute and then mute again so we know you have received the request.)</p>
+        <p>We've been doing this since 2019 and it's been really well received. If it sounds a bit scary, remember you can always be silent during your turn!</p>
       </div>
-      <h4><b>8pm</b>: optional break</h4>
+      <h4><b>8.30pm</b>: optional break</h4>
       <div class="explanation">
-        <p>Sometimes we take a short break if it feels like we need one after the thinking round. Otherwise we go straight into the roundtable chat.</p>
-        <p>If there are many people present, sometimes the thinking round continues for a little after the break, and we may even go into another break if we need to.</p>
+        <p>If there are many people present, sometimes the thinking round continues for long enough that we need a break in the middle.</p>
       </div>
-      <h4><b>8.10pm</b>: roundtable chat about a pre-agreed topic</h4>
+      <h4><b>~ 8.45pm</b>: roundtable chat about a pre-agreed topic</h4>
       <div class="explanation">
         <p>The topic will be agreed in advance on the <nuxt-link to="/members#discord">Discord group</nuxt-link> and will usually be something quite wide-ranging like "Rules".</p>
         <p>This discussion is allowed to wander as much as it likes. It is hopefully as much fun and use for people who have lots to say about the subject as it is for the people who have mostly questions about it.</p>
+        <p>The time this session starts is very variable, depending how much time people need to think and speak during the thinking round.</p>
       </div>
-      <h4><b>8.45pm</b>: break / social time</h4>
-      <h4><b>9pm</b>: support session</h4>
+      <h4><b>9.15pm</b>: break / social time</h4>
+      <div class="explanation">
+        <p>Normally we'll break up the roundtable chat around 9.15 or 9.30 if it is still going on, so there is still time for general support at the end.</p>
+      </div>
+      <h4><b>9.30pm</b>: general support session</h4>
       <div class="explanation">
         <p>This is a chance for anyone with specific questions, problems or concerns about relationships to raise those and get support from other people present. It's not just for people new to ethical non-monogamy: we all need support from time to time, and those with more experience can share their experience.</p>
+        <p>We will take any urgent support needs first, after which we might talk about themes that have come up during the course of the evening.</p>
+        <p>Sometimes people leave during this time if they need to go to bed; there is no pressure to stay right to the end.</p>
       </div>
-      <h4><b>9.45pm</b>: social time if you'd like to stay on the call!</h4>
-      <h4><b>10pm</b>: close</h4>
+      <h4><b>10.30pm</b>: close</h4>
+      <div class="explanation">
+        <p>We try to wrap up sometime between 10.30 and 11pm and we ask for a happy story from the people still on the call to end the session.</p>
+      </div>
+      <h4><b>until late</b>: afterparty in the Lounge</h4>
+      <div class="explanation">
+        <p>The Discord Lounge is free for people to hang out together on a video call whenever they like. People sometimes have an afterparty discussion in the Lounge, although this will not be facilitated because Emily &amp; Quinn like to go to bed!</p>
+      </div>
     </section>
     <section>
       <h3>The Box</h3>
-      <p><em>The Box</em> comes with us to every meetup. It's a place you can write thoughts or questions anonymously, or if you don't want to speak out loud. These could be contributions to the current support session, or suggestions for the next month's roundtable chat.</p>
-      <p>You can also contribute items for The Box when you RSVP to an event on Meetup or by <nuxt-link to="/contact">sending us an email</nuxt-link>.</p>
-      <p>One of the organisers will read out anything that's in The Box at the start of the support session; so you can put your questions or thoughts in there at any time during the first half.</p>
-      <p>You can also submit thoughts and comments directly to an organiser (Quinn or Emily) during the Zoom call using the private chat feature. Be sure to say you'd like your words to be read out as an anonymous comment.</p>
+      <p><em>The Box</em> was a physical box that used to come with us to every meetup. It was a place you can write thoughts or questions anonymously, or if you don't want to speak out loud. These could be contributions to the current support session, or suggestions for the next month's roundtable chat.</p>
+      <p>If you want something reading out anonymously on the Zoom call, you can submit thoughts and comments directly to an organiser (Quinn or Emily) using the private chat feature. Be sure to say you'd like your words to be read out as an anonymous comment.</p>
     </section>
     <section id="rules">
       <h3>Rules</h3>
@@ -66,13 +82,12 @@
     <section>
       <h3>Do I need to pay?</h3>
       <p>Short answer: No.</p>
-      <p>Zoom costs us a small amount each month, and when we start meeting again occasionally in person, we'd like to be able to pay for a room. If you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or the Meetup/website running costs, small donations are welcome! You can put cash into The Box or it's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>.</p>
+      <p>Zoom and Meetup costs us a small amount of money each month. If you'd like to contribute to this, the <nuxt-link to="/members#library">O.P.E.N library</nuxt-link> or other running costs, small donations are welcome! It's possible to <nuxt-link to="/members#donate">donate online</nuxt-link>. You can pay a one-off donation or set up a recurring donation. Any amount is gratefully received, but please don't feel any pressure to pay.</p>
     </section>
     <section>
       <h3>Social events</h3>
-      <p>As well as the monthly support &amp; community meetup, we hold occasional social events. Newcomers and old-timers are both welcome at these — just look for Thursday the owl to find us!</p>
+      <p>As well as the monthly support &amp; community meetup, we hold occasional social events. These are for our members to socialise as a community, but you are welcome to come to one as your first event if you'd prefer that.</p>
       <p>Keep an eye on <a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener">Meetup</a> for details.</p>
-      <p>Our sibling group Yorkshire Poly Connections holds a regular pub social on the second Friday of every month, also in Leeds. <a href="https://www.facebook.com/groups/2073115902970629/" target="_blank" rel="noopener">Join them over on Facebook!</a></p>
     </section>
   </main>
 </template>

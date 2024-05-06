@@ -8,7 +8,6 @@
       <li><a href="https://www.meetup.com/y-open/" target="_blank" rel="noopener"><b>Meetup</b></a></li>
       <li><a href="https://twitter.com/YorkshireOPEN" target="_blank" rel="noopener"><b>Twitter @YorkshireOPEN</b></a></li>
       <li><a href="https://facebook.com/YorkshireOPEN" target="_blank" rel="noopener"><b>Facebook</b></a></li>
-      <li><a href="https://fetlife.com/groups/46993" target="_blank" rel="noopener"><b>FetLife</b></a></li>
     </ul>
   </main>
 </template>
